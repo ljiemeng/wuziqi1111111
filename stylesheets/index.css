@@ -1,0 +1,89 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: '微软雅黑';
+	background: url(../images/body.png) no-repeat;
+	height: 580px;
+	background-size: cover;
+	cursor: pointer;
+	
+
+}
+.clear{
+	clear:both;
+}
+.kapian{
+	width: 1000px;
+	margin-top: 50px;
+	margin-left: 200px;
+	/*border: 1px solid black;*/
+	border-radius: 10px;
+	overflow: hidden;
+	position: relative;
+}
+.title{
+	width: 100px;
+	height: 30px;
+	box-shadow: -2px 0 5px rgb(19,80,225);
+	background-color: #eee;
+	text-align: center;
+	line-height: 30px;
+	position: absolute;
+	top:10px;
+	left: -25px;
+	-webkit-transform:rotateZ(-45deg)
+}
+.hezi{
+	width: 800px;
+	border-radius: 10px;
+	/*border: 1px solid black;*/
+	margin-top: 44px;
+
+}
+#qipan{
+	border: 1px solid black;
+	border-radius: 10px;
+	position: relative;
+	margin: 5px auto;
+	margin-left: 340px;
+
+}
+.qizi{
+	float: left;
+	border-radius: 50%;	
+	position: relative;
+	-webkit-transform:scale(0.95);
+	z-index: 666;
+}
+.line{
+	position: absolute;
+	background: white;
+
+}
+#tonzhi{
+	width: 400px;
+	height: 250px;
+	border: 1px solid black;
+	border-radius: 10px;
+	font-size: 50px;
+	text-align: center;
+	line-height: 140px;
+	background: white;
+	position: absolute;
+	top:120px;
+	left: 44px;
+	z-index: 8888;
+}
+#again{
+	width: 120px;
+	height: 50px;
+	background: black;
+	color:#fff;
+	font-size: 18px;
+	text-align: center;
+	line-height: 50px;
+	border-radius: 10px;
+	border:1px solid red;
+	margin:10px auto 0;
+
+}
